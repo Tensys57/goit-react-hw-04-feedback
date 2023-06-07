@@ -36,7 +36,7 @@ export const App = () => {
   };
 
   return (
-    <div>
+    <div class="container">
       <Section title="Please leave feedback">
         <FeedbackOptions options={options} onLeaveFeedback={onClickHandler} />
       </Section>
